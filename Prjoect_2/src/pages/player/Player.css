@@ -9,7 +9,7 @@
     position: absolute;
     top: 10px;
     left: 5px;
-    width: 70px;
+    width: 50px;
     cursor: pointer;
 }
 .player iframe{
@@ -20,4 +20,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+@media (max-width: 800px) {
+    .player .player-info {
+       font-size: 14px;
+    }
+    .player img {
+        
+        width: 40px;
+        
+    }
+    
+}
+@media (max-width: 550px) {
+    .player .player-info {
+       font-size: 12px;
+    }
+    .player img {
+        
+        width: 30px;
+        
+    }
+    
 }

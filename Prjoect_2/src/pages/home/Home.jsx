@@ -22,7 +22,7 @@ const Home = () => {
                     <button className='btn-play'><img src={play} alt="" />Play</button>
                     <button className='btn-info'><img src={info} alt="" />More Info</button>
                 </div>
-             <   Titlecards/>
+             <   Titlecards />
             
 
             </div>

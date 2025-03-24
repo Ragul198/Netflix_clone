@@ -44,7 +44,7 @@ const Navbar = () => {
             </div>
         </div>
         <div className="right-bar">
-            <Search size={24} cursor={Pointer} />
+            <Search size={24} cursor={Pointer} className='search' />
             <p>Children</p>
             <Bell size={24} />
             <div className="profile_pic">

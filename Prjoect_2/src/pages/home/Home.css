@@ -71,4 +71,167 @@
         padding-left: 6%;
     }
     
+    /* @media (max-width: 500px) {
+        .hero-description p {
+            font-size: 8px;
+            margin-bottom: 10px;
+            width: 100%;
+            max-width: 300px;
+        }
+        .hero-title {
+            width: 100%;
+            max-width: 200px;
+            margin-bottom: 15px;
+        }
+        .hero-description .buttons {
+            display: flex;
+            gap: 5px;
+        }
+        .hero-description .buttons button {
+            display: inline-flex
+        ;
+            align-items: center;
+            gap: 3px;
+            width: max-content;
+            font-size: 8px;
+            font-weight: 600;
+            color: black;
+            padding: 4px 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            border: 0;
+            outline: 0;
+            cursor: pointer;
+        }
+        .hero-description .buttons button img {
+            width: 10px;
+        }
+    } */
+   @media (max-width: 1000px) {
+    .hero .titlecards{
+        display:none;
+        
+    }
     
+   }
+   @media (max-width: 1200px) {
+    .hero-title {
+        
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+    .hero-description p {
+        font-size: 13px;
+        margin-bottom: 15px;
+        
+        max-width: 650px;
+    }
+    .hero-description .buttons button {
+        gap: 7px;
+        font-size: 15px;
+        padding: 8px 18px;
+        margin-bottom: 25px;
+        
+    }
+    .hero-description .buttons button img {
+        width: 15px;
+    }
+    .hero-description {
+        
+        padding-left: 5%;
+        
+    }
+    .more-cards {
+        padding-left: 5%;
+    }
+    .hero-description {
+        
+        padding-left: 4%;
+        
+    }
+    .more-cards {
+        padding-left: 4%;
+    }
+    
+   }
+
+   @media (max-width: 800px) {
+    .hero-title {
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 15px;
+    }
+    .hero-description p {
+        font-size: 12px;
+        margin-bottom: 15px;
+        width: 100%;
+        max-width: 450px;
+        display: none;
+    }
+    .hero-description .buttons button {
+        gap: 7px;
+        font-size: 12px;
+        padding: 6px 16px;
+        margin-bottom: 25px;
+        display: none;
+        
+    }
+    .hero-description .buttons button img {
+        width: 15px;
+    }
+    .hero-description {
+        
+        padding-left: 5%;
+        
+    }
+    .more-cards {
+        padding-left: 5%;
+    }
+   }
+   @media (max-width: 550px) {
+    .hero-title {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+    .hero-description p {
+        font-size: 8px;
+        margin-bottom: 12px;
+        width: 100%;
+        max-width: 250px;
+    }
+    .hero-description .buttons button {
+        gap: 4px;
+        font-size: 8px;
+        padding: 4px 12px;
+        margin-bottom: 15px;
+        
+    }
+    .hero-description .buttons button img {
+        width: 12px;
+    }
+    .titlecards {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .hero-description {
+        
+        padding-left: 3%;
+        
+    }
+    .more-cards {
+        padding-left: 3%;
+    }
+
+   }
+
+   @media (max-width: 400px) {
+    .hero-title {
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+   }
+    
+   

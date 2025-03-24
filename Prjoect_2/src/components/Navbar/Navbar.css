@@ -74,10 +74,116 @@
 .nav-dark{
     background-color: #191919;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
+    
+    
     .Navbar .left-bar ul{
-        
         display: none;
     }
+    
+     
+}
+@media (max-width: 1000px) {
+    .Navbar{
+        padding: 5px;
+    }
+    .Navbar .left-bar img{
+        width: 90px;
+        
+    }
+    .Navbar .right-bar{
+        
+        gap: 9px;
+        padding-right: 14px;
+        font-size: 17px;
+        
+    }
+    .Navbar .right-bar .profile_pic{
+        
+        gap: 5px;
+        
+        
+    }
+    .Profile_dropdown{
+        
+        padding: 12px 8px;
+        
+       
+    }
+    .Profile_dropdown p{
+        
+        font-size: 10px;
+    }
+    
+    
+     
+}
+@media (max-width: 800px) {
+    .Navbar{
+        padding: 5px;
+    }
+    .Navbar .left-bar img{
+        width: 80px;
+        
+    }
+    .Navbar .right-bar{
+        
+        gap: 8px;
+        padding-right: 12px;
+        font-size: 15px;
+        
+    }
+    .Navbar .right-bar .profile_pic{
+        
+        gap: 5px;
+        
+        
+    }
+    
+    
+     
+}
+@media (max-width: 550px){
+    .Navbar{
+        padding: 4px;
+    }
+    .Navbar .left-bar img{
+        width: 70px;
+        
+    }
+    .Navbar .right-bar{
+        
+        gap: 9px;
+        padding-right: 13px;
+        font-size: 15px;
+        
+    }
+    .Navbar .right-bar .profile_pic{
+        
+        gap: 8px;
+        
+        
+    }
+    .Navbar .right-bar .profile_pic .profile_img{
+        width: 35px;
+        cursor: pointer;
+    
+    }
+    .Navbar .left-bar{
+       
+        padding-left: 10px;
+    }
+    .Profile_dropdown{
+        
+        padding: 8px 6px;
+        
+       
+    }
+    .Profile_dropdown p{
+        
+        font-size: 6px;
+    }
+    
+
 }
 

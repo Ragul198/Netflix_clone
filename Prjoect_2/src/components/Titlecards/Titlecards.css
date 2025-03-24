@@ -1,7 +1,7 @@
 .titlecards{
     width: 100%;
     margin-bottom: 30px;
-    margin-top: 50px;
+    margin-top: 10px;
     
     
     
@@ -44,7 +44,7 @@
     position: absolute;
     bottom: 30px;
     right: 20px;
-    left: 50px;
+    left: 20px;
     
     
     
@@ -56,4 +56,74 @@
 .card:hover{
     transform: scale(1.1);
     transition: transform ease-in-out 0.4s;
+}   
+
+
+
+@media (max-width: 1200px) {
+
+    .titlecards{
+        margin-top: 20px;
+    }
+    .cards .card img {
+        width: 250px;
+        
+    }
+    .card p {
+        
+        font-size: 14px;
+    }
+    .cards {  
+        gap: 7px;
+    }
+    .titlecards h1 {
+        margin-bottom: 0px;
+        font-size: 17px;
+    }
+        
+}
+@media (max-width: 800px) {
+
+    .titlecards{
+        margin-top: 20px;
+    }
+    .cards .card img {
+        width: 200px;
+        
+    }
+    .card p {
+        
+        font-size: 14px;
+    }
+    .cards {  
+        gap: 7px;
+    }
+    .titlecards h1 {
+        margin-bottom: 0px;
+        font-size: 17px;
+    }
+        
+}
+@media (max-width: 550px) {
+
+    .titlecards{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .cards .card img {
+        width: 150px;
+        
+    }
+    .card p {
+        
+        font-size: 10px;
+    }
+    .cards {
+        gap: 2px;
+    }
+    .titlecards h1 {
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+        
 }
