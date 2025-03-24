@@ -1,0 +1,83 @@
+.Navbar{
+    width: 100%;
+    height: max-content;
+    background: linear-gradient(90deg, #05050513 100%, transparent 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+}
+.Navbar .left-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-left: 40px;
+}
+.Navbar .left-bar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Navbar .left-bar li{
+    list-style-type: none;
+    font-size: medium;
+}
+.Navbar .left-bar img{
+    width: 100px;
+    
+}
+.Navbar .right-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 40px;
+    
+}
+.Navbar .right-bar .profile_pic{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    
+}
+.Navbar .right-bar .profile_pic .profile_img{
+    width: 40px;
+    cursor: pointer;
+
+}
+.Profile_dropdown{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: max-content;
+    padding: 18px 12px;
+    background-color: #191919;
+    text-decoration: underline;
+    border: 2px ;
+    z-index: 1;
+    display: none;
+   
+}
+.Profile_dropdown p{
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.profile_pic:hover .Profile_dropdown{
+    display: block;
+}
+.nav-dark{
+    background-color: #191919;
+}
+@media (max-width: 1300px) {
+    .Navbar .left-bar ul{
+        
+        display: none;
+    }
+}
+
