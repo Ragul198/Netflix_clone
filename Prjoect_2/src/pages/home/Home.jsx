@@ -17,7 +17,7 @@ const Home = () => {
 
         <div className="hero-description">
           <img className="hero-title" src={title} alt="" />
-          <p>THIS A NETFLIX CLONE WEBSITE ONLY FOR EDUCATIONAL PURPOSE</p>
+          <p>THIS A CLONE WEBSITE ONLY FOR EDUCATIONAL PURPOSE</p>
 
           <div className="buttons">
             <button className="btn-play">
