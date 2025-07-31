@@ -32,6 +32,7 @@ const Login = () => {
     loading? <div className="loading"><img src={netflix_loader} alt="" /></div>:
     <div className="login-page">
       <img src={Logo} alt="logo" className='logo'  />
+    <p>THIS A NETFLIX CLONE WEBSITE ONLY FOR EDUCATIONAL PURPOSE</p>
       <div className="form">
         <h1>{signstate}</h1>
         {signstate==="Sign In"?<></>:<input type="text" placeholder='Username'value={Username} onChange={(e)=>setusername(e.target.value)} />}
